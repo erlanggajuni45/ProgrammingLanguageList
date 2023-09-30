@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">ProgrammingLanguageList</string>
+
+    <string-array name="data_name">
+        <item>Python</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>Javascript</item>
+        <item>PHP</item>
+        <item>Swift</item>
+        <item>Java</item>
+        <item>Go</item>
+        <item>SQL</item>
+        <item>Ruby</item>
+    </string-array>
+
+    <!-- Description -->
+    <string-array name="data_description">
+        <item>
+            Python adalah bahasa pemrograman tingkat tinggi yang bisa digunakan untuk
+            berbagai tujuan. Bahasa ini bisa digunakan untuk berbagai task, mulai dari analisis dan
+            visualisasi data hingga pengembangan website, prototype, dan otomatisasi.\n
+
+            Python populer di kalangan developer software karena sangat cocok sebagai bahasa skrip.
+            Bahasa ini pun memungkinkan usernya menggunakan berbagai paradigma pemrograman, termasuk bahasa yang berorientasi pada objek (object-oriented),
+            imperatif, prosedural, dan fungsional.\n
+
+            Selain itu, Python bersifat open-source, sehingga programmer bisa memodifikasi source codenya agar sesuai dengan kebutuhan mereka.\n
+
+            Python adalah salah satu bahasa pemrograman termudah karena sintaksisnya sangat mirip dengan bahasa Inggris.
+            Kalau Anda ingin memulai karier sebagai developer atau engineer software,
+            belajar coding dengan Python bisa jadi titik awal yang bagus.\n
+
+            Apalagi, posisi kerja sebagai developer Python saat ini sedang sangat dibutuhkan dan dicari.
+            Di antaranya adalah data scientist, software engineer, dan artificial intelligence (AI) researcher.
+        </item>
+        <item>
+            C# adalah bahasa pemograman berbasis objek, yaitu model yang mengatur desain software menurut objek.\n
+
+            C# adalah salah satu bahasa pemrograman terbaik karena performanya cepat dan lebih stabil.
+            Bahasa coding ini juga lebih mudah daripada pendahulunya, C dan C++, karena memiliki sintaksis yang simpel dan hierarki class yang tersusun dengan baik.\n
+
+            Awalnya, C# digunakan sebagai bahasa Microsoft untuk .NET framework, kemudian kini kompatibel dengan Windows dan Linux.
+            Bisa dibilang, ini adalah bahasa pemrograman terbaik yang layak dipelajari untuk mengembangkan aplikasi desktop berbasis GUI.\n
+
+            Programmer juga bisa menggunakan C# di berbagai environment, termasuk software perangkat seluler dan enterprise.
+            Dengan kata lain, mereka bisa membuat aplikasi Android dan iOS serta mengembangkan game 2D dan 3D di Unity.\n
+
+            C# sangat diminati karena banyak perusahaan software yang terus mencari coder berbakat yang ahli menggunakan C#.
+            Beberapa posisi kerja terbaik untuk developer C# adalah software engineer dan developer game atau aplikasi mobile.
+        </item>
+        <item>
+            C++ adalah versi yang lebih tinggi dari C dan menjadi salah satu contoh bahasa pemrograman terpopuler dalam computer science.
+            Selain itu, C++ memiliki fungsi yang serbaguna sehingga menjadi salah satu yang terbaik untuk dipelajari.\n
+
+            Bahasa ini cepat dan canggih, sehingga developer bisa membuat aplikasi dengan performa terbaik, seperti video game, software grafis, dan web browser.\n
+
+            Dengan memadukan karakteristik bahasa level rendah dan tinggi, bahasa ini sangat cocok untuk programming sistem, memungkinkan abstraksi project yang lebih kecil.
+            Selain itu, C++ adalah bahasa coding multiparadigma yang mendukung pemrograman OOP, generik, dan imperatif.\n
+
+            Di sisi lain, mempelajari C++ mungkin akan menjadi tantangan bagi pemula karena memiliki sintaksis yang lebih rumit daripada bahasa pemrograman lainnya.\n
+
+            Untuk peluang di dunia kerja, skill C++ sangat penting bagi banyak tenaga IT profesional, seperti developer software dan arsitek programming.\n
+
+            Developer C++ kini sedang banyak dibutuhkan karena bahasa ini menjadi salah satu bahasa coding yang paling rumit dipelajari.
+            Jadi, pastikan untuk mencantumkannya di CV web developer Anda guna menambah peluang kerja.
+        </item>
+        <item>
+            Selain HTML dan CSS, JavaScript menjadi bahasa pemrograman terbaik untuk dipelajari apabila Anda tertarik dengan front-end web.
+            97,8% dari semua website menggunakan JavaScript untuk skrip sisi kliennya, sehingga bahasa ini menjadi yang paling populer untuk tujuan pengembangan tersebut.\n
+
+            Bahasa skrip ini sering digunakan untuk meningkatkan interaktivitas halaman web.
+            Web developer bisa menambahkan elemen dinamis di landing page mereka, seperti grafik animasi, tombol yang bisa diklik, dan efek mouseover.\n
+
+            Kemudian selain itu, JavaScript adalah bahasa yang sangat cocok untuk mengembangkan aplikasi web karena menawarkan desain yang intuitif.\n
+
+            Jadi, secara keseluruhan, JavaScript relatif mudah dipelajari sehingga bisa menjadi pilihan yang tepat bagi Anda yang berencana menjadi web developer.
+            Developer JavaScript juga bisa mencoba peruntungannya sebagai UI/UX designer, developer full-stack, dan software engineer.
+        </item>
+        <item>
+            PHP adalah salah satu bahasa back-end pertama yang penting untuk dipelajari menurut sejumlah web developer.
+            Selain itu, PHP digunakan oleh 78,1% dari semua website karena merupakan bahasa utama untuk WordPress.\n
+
+            PHP lebih mudah dipelajari dibandingkan dengan bahasa pemrograman lainnya. Selain memiliki banyak sekali resource yang tersedia untuk pemula, sintaksis PHP tidaklah rumit.\n
+
+            Terlebih lagi, bahasa ini menawarkan framework PHP yang sangat baik untuk pengembangan website dan aplikasi. Beberapa yang terbaik di antaranya adalah Laravel, Symfony, dan CodeIgniter.\n
+
+            Untuk peluang kerja, PHP adalah bahasa programming open-source yang banyak diminati meskipun termasuk yang tertua di industri.
+            Programmer PHP bisa menggunakan bahasa ini untuk menulis skrip command-line serta skrip sisi server dan mengembangkan aplikasi desktop.
+        </item>
+        <item>
+            Swift adalah salah satu bahasa pemrograman yang paling baru di industri ini. Saat pertama kali diluncurkan,
+            Swift menjadi alternatif untuk Objective-C, yang merupakan bahasa utama produk Apple.\n
+
+            Developer beralih ke Swift karena menawarkan fitur-fitur modern, seperti pemrograman konkuren (concurrent) dan pengelolaan memori otomatis.
+            Swift juga lebih mudah ditulis dan lebih cepat daripada Objective-C.\n
+
+            Jadi, bisa dibilang Swift adalah bahasa programming terbaik dalam pengembangan produk Apple dan salah satu bahasa dengan pertumbuhan tercepat.\n
+
+            Kalau Anda tertarik untuk mengembangkan produk Apple, sebaiknya pilih Swift sebagai bahasa pertama yang Anda pelajari.\n
+
+            Selain itu, keahlian dalam pengembangan aplikasi iOS saat ini sangat diminati karena Apple terus menjadi penghasil keuntungan dan pendapatan terbesar dalam bisnis smartphone.
+        </item>
+        <item>
+            Java adalah bahasa pemrograman dengan hak milik yang dipegang oleh Oracle. Java merupakan bahasa programming tingkat tinggi yang serbaguna,
+            memungkinkan coder untuk membuat semua jenis aplikasi dengan mudah.\n
+
+            Dikenal luas sebagai bahasa coding dengan tagline “tulis sekali, jalankan di mana saja”, kode Java bisa berjalan tanpa masalah di sistem operasi apa pun,
+            di mana pun kode tersebut ditulis.\n
+
+            Selain itu, Java termasuk bahasa coding yang mudah berkat familiaritas sintaksisnya dengan struktur
+            object-oriented dan tugas dunia nyata. Kemudian framework Java yang baru, termasuk Spring dan Hibernate, membuatnya lebih mudah bagi developer untuk membuat aplikasi.\n
+
+            Java bisa digunakan untuk berbagai hal, mulai dari software engineering hingga web development back-end,
+            data science, dan big data. Bahasa ini juga sering digunakan dalam layanan keuangan karena keamanannya yang kuat.\n
+
+            Programmer Java bisa mempelajari bahasa coding baru dengan cepat karena skill programming Java
+            bisa diaplikasikan ke bahasa lain. Oleh karena itu, Java bisa menjadi contoh bahasa pemrograman pertama yang layak dipelajari oleh semua penggemar coding.\n
+
+            Selain itu, pekerjaan sebagai developer Java masih banyak dibutuhkan. Anda bisa memilih berbagai posisi kerja, termasuk software engineer, analis QA, manajer proyek, dan UX designer.
+        </item>
+        <item>
+            Go atau Golang dibuat untuk mengembangkan API, aplikasi desktop berbasis GUI, dan aplikasi web. Meskipun tergolong masih baru,
+            Go menjadi salah satu bahasa pemrograman yang berkembang paling cepat.\n
+
+            Pemrograman konkuren adalah salah satu fitur terbaik Go. Fitur ini memungkinkan programmer menggunakan CPU multicore dan codebase yang sangat besar.\n
+
+            Ditambah dengan performa yang luar biasa, Go bisa menjadi bahasa coding yang sangat cocok untuk membuat algoritme, web server, dan pipeline data.\n
+
+            Kabar baiknya, konkurensi Go relatif lebih sederhana daripada bahasa lainnya. Dengan thread Goroutine yang ringan,
+            programmer hanya perlu menambahkan sintaksis Go untuk membuat fungsi berjalan sebagai subproses.\n
+
+            Selain itu, Go telah menjadi salah satu bahasa pemrograman paling populer untuk dipelajari.
+            Meskipun berbasis sintaksis disiplin C, Go lebih mudah dipahami karena tidak begitu kompleks.\n
+
+            Beberapa posisi kerja terbaik untuk developer Go termasuk software engineer, data scientist, web developer back-end,
+            dan AI researcher. Gaji developer Go juga termasuk yang paling tinggi, dan posisinya semakin banyak dibutuhkan.
+        </item>
+        <item>
+            Structured Query Language (SQL) adalah bahasa pemrograman yang paling cocok dipelajari kalau Anda tertarik dengan data science dan komputasi statistik.
+            SQL merupakan bahasa khusus domain, memungkinkan programmer membuat kueri, memanipulasi, dan menganalisis data yang disimpan dalam database relasional.\n
+
+            SQL adalah bahasa ketiga yang paling banyak digunakan menurut statistik Stack Overflow. Untuk peluang kerja,
+            perusahaan-perusahaan dari berbagai industri mungkin membutuhkan developer SQL karena perannya yang penting dalam pengelolaan database.\n
+
+            Web developer menggunakan SQL untuk mengatur database website, dan marketer menggunakannya untuk membantu mengevaluasi kampanye pemasaran.
+            Selain itu, ada banyak sistem pengelolaan database yang menggunakan SQL, termasuk MySQL dan MariaDB.\n
+
+            Bisa dibilang developer SQL memang cukup diminati. Untungnya, belajar SQL tidaklah sulit karena sintaksisnya menggunakan kata-kata bahasa Inggris umum.
+        </item>
+        <item>
+            Ruby adalah contoh bahasa pemrograman open-source populer lainnya. Bahasa ini biasanya digunakan untuk pengembangan aplikasi web,
+            tapi programmer juga bisa menggunakannya untuk analisis data dan pembuatan prototype.\n
+
+            Karena Ruby menggunakan sintaksis seperti bahasa Inggris, Anda bisa mempelajari bahasa interpreted yang serbaguna ini dengan cukup mudah.\n
+
+            Selain itu, framework Ruby on Rails (RoR) memberikan banyak keuntungan, termasuk keamanan yang lebih baik, tidak sering maintenance, dan cocok untuk full-stack development.\n
+
+            Meskipun banyak yang merasa kalau Ruby sudah tidak laku, bahasa ini menjadi salah satu opsi paling stabil untuk pengembangan website. Jadi, kalau ingin meningkatkan skill web development dan aplikasi web, Anda bisa mencoba mempelajari Ruby.
+        </item>
+    </string-array>
+
+    <!-- Pros and Cons -->
+    <string-array name="data_pros">
+        <item>Open-source, Sangat mudah diskalakan, Framework graphical user interface (GUI) yang lengkap, Kompatibel dengan Mac dan Windows, Dukungan komunitas yang terus berkembang</item>
+        <item>Waktu kompilasi dan eksekusi cepat, Sangat cocok untuk semua jenis pengembangan Windows, Lebih aman daripada C dan C++, karena tidak menggunakan pointer, Komunitas pengembang .NET yang besar, Framework yang sangat beragam.</item>
+        <item>Open-source, Sangat serbaguna, Cepat dan canggih, Kontrol yang lebih menyeluruh, Sangat cocok untuk lintas perangkat dan lintas platform, Skill bahasa ini bisa menjadi dasar untuk belajar bahasa lain</item>
+        <item>Open-source, JavaScript sisi klien sangat cepat karena tidak memerlukan kompilasi, Sangat cocok dengan bahasa pemrograman terbaik lainnya, Bagus untuk meningkatkan pengalaman dan engagement pengguna website</item>
+        <item>Open-source, PHP 7 dan versi lebih tinggi memiliki kecepatan yang bagus, Dirancang dengan matang untuk web development, Mendukung OOP dan pemrograman fungsional, Dukungan komunitas yang sangat baik</item>
+        <item>Lebih mudah dibaca karena clean code (rapi dan mudah dibaca), Interoperable dengan Objective-C, Footprint memori lebih sedikit</item>
+        <item>Sangat serbaguna, Mudah dipelajari, ditulis, dikompilasi, dan didebug, Framework Java baru membuat development program Java lebih cepat, Memiliki berbagai API untuk pengembangan aplikasi, Mendukung multithreading, Keamanan yang lebih baik, Kompatibilitas lintas platform</item>
+        <item>Open-source, Waktu eksekusi cepat, Model konkurensi sederhana, Keamanan yang lebih baik, Dukungan testing yang sangat baik dan tool analisis statis</item>
+        <item>Pemrosesan kueri lebih cepat, Portabilitas yang sangat baik, Keamanan tinggi, Sangat interaktif, Komunitas pengguna besar</item>
+        <item>Open-source, Bisa ditulis dengan cepat dan mudah didebug, Garbage collection efektif, Komunitas besar dan aktif, Framework Ruby on Rails sangat cocok untuk membuat website</item>
+    </string-array>
+
+    <string-array name="data_cons">
+        <item>Lebih lambat karena merupakan interpreted language, Menggunakan banyak memori, Tidak ideal untuk pengembangan versi seluler</item>
+        <item>Cukup sulit dipelajari daripada bahasa lainnya, Kurang kompatibel lintas platform karena bergantung pada environment .NET.</item>
+        <item>Bisa sangat sulit bagi pemula, Salah menggunakan pointer bisa menyebabkan error, Strukturnya object-oriented sehingga kurang efisien daripada bahasa pemrograman berbasis OOP lainnya, Kurangnya garbage collection</item>
+        <item>Masalah keamanan, Performa lintas browser tidak stabil</item>
+        <item>Masalah keamanan, Membuat website dengan PHP lebih lambat daripada dengan bahasa lainnya, Lebih sedikit tool debugging.</item>
+        <item>Sering dianggap sebagai bahasa pemrograman yang belum matang meskipun perkembangannya pesat, Kurangnya dukungan untuk versi lama iOS</item>
+        <item>Waktu eksekusi lambat, Memakan banyak memori</item>
+        <item>Dukungan library terbatas, Kurangnya fungsi generik, Tidak ideal untuk mengembangkan program yang kompleks</item>
+        <item>Tidak open-source, Bukan bahasa pemrograman terbaik kalau Anda ingin membuat aplikasi</item>
+        <item>Lambat, Kurang fleksibel, Masalah multithreading</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/python</item>
+        <item>@drawable/csharp</item>
+        <item>@drawable/cpp</item>
+        <item>@drawable/js</item>
+        <item>@drawable/php</item>
+        <item>@drawable/swift</item>
+        <item>@drawable/java</item>
+        <item>@drawable/go</item>
+        <item>@drawable/sql</item>
+        <item>@drawable/ruby</item>
+    </integer-array>
+</resources>
