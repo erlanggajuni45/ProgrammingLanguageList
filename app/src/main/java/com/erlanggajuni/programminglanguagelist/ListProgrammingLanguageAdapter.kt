@@ -23,27 +23,10 @@ class ListProgrammingLanguageAdapter(private val listLanguage: ArrayList<Program
     override fun getItemCount(): Int = listLanguage.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, description, _, _, photo) = listLanguage[position]
-//        val prosItem = pros.split(", ")
-//        val consItem = cons.split(", ")
-//
-//        var prosString: String = ""
-//        var consString: String = ""
-
+        val (name, _, _, description, _, _, photo) = listLanguage[position]
         holder.binding.imgItemPhoto.setImageResource(photo)
         holder.binding.tvItemName.text = name
         holder.binding.tvItemDescription.text = description
-
-//        for (item in prosItem) {
-//            prosString = if (prosString == "") "$item\n"
-//            else "$prosString$item\n"
-//        }
-//
-//        for (item in consItem) {
-//            consString = if (consString == "") "$item\n"
-//            else "$consString$item\n"
-//        }
-
         holder.itemView.setOnClickListener { onItemClickCallback.onItemClicked(listLanguage[holder.adapterPosition]) }
     }
 

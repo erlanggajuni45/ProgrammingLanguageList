@@ -49,7 +49,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/author_language"
+            tools:text="@string/author_language"
             app:layout_constraintBottom_toTopOf="@+id/description_detail"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
-            android:text="@string/release_year"
+            tools:text="@string/release_year"
             app:layout_constraintStart_toEndOf="@+id/detail_photo"
             app:layout_constraintTop_toBottomOf="@+id/design_by" />
 
@@ -94,6 +94,7 @@
             android:text="@string/pros_header"
             android:textSize="24sp"
             android:textStyle="bold"
+            android:paddingHorizontal="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.093"
@@ -107,6 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="40dp"
+            android:paddingHorizontal="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -120,6 +122,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:paddingHorizontal="8dp"
             android:text="@string/cons_header"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -132,6 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="53dp"
+            android:paddingHorizontal="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -141,9 +145,12 @@
             tools:text="@string/list_cons" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/action_share"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             android:text="@string/share"
             android:textColor="@color/white"
             app:icon="@drawable/baseline_share_24"

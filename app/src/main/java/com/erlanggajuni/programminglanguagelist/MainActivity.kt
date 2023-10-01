@@ -1,5 +1,6 @@
 package com.erlanggajuni.programminglanguagelist
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -23,6 +24,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun getListLanguages(): ArrayList<ProgrammingLanguage> {
         val dataName = resources.getStringArray(R.array.data_name)
+        val dataDesignBy = resources.getStringArray(R.array.data_design_by)
+        val dataReleaseYear = resources.getStringArray(R.array.data_release_year)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPros = resources.getStringArray(R.array.data_pros)
         val dataCons = resources.getStringArray(R.array.data_cons)
@@ -30,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         val listLanguage = ArrayList<ProgrammingLanguage>()
 
         for (i in dataName.indices) {
-            val language = ProgrammingLanguage(dataName[i], dataDescription[i], dataPros[i], dataCons[i], dataPhoto.getResourceId(i, -1))
+            val language = ProgrammingLanguage(dataName[i], dataDesignBy[i], dataReleaseYear[i], dataDescription[i], dataPros[i], dataCons[i], dataPhoto.getResourceId(i, -1))
             listLanguage.add(language)
         }
         return listLanguage
@@ -49,6 +52,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedLanguage(language: ProgrammingLanguage) {
-        Toast.makeText(this,language.name, Toast.LENGTH_SHORT).show()
+        val detailIntent = Intent(this@MainActivity, DetailActivity::class.java)
+        detailIntent.putExtra(DetailActivity.DETAIL_LANGUAGE, language)
+        startActivity(detailIntent)
     }
 }
