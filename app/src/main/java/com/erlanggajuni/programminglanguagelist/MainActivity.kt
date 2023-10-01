@@ -2,6 +2,7 @@ package com.erlanggajuni.programminglanguagelist
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.erlanggajuni.programminglanguagelist.databinding.ActivityMainBinding
 
@@ -37,7 +38,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerList() {
         binding.rvLanguages.layoutManager = LinearLayoutManager(this)
-        val listProgrammingLanguage = ListProgrammingLanguageAdapter(list)
-        binding.rvLanguages.adapter = listProgrammingLanguage
+        val listProgrammingLanguageAdapter = ListProgrammingLanguageAdapter(list)
+        binding.rvLanguages.adapter = listProgrammingLanguageAdapter
+
+        listProgrammingLanguageAdapter.setOnItemClickCallback(object: ListProgrammingLanguageAdapter.OnItemClickCallback{
+            override fun onItemClicked(data: ProgrammingLanguage) {
+                showSelectedLanguage(data)
+            }
+        })
+    }
+
+    private fun showSelectedLanguage(language: ProgrammingLanguage) {
+        Toast.makeText(this,language.name, Toast.LENGTH_SHORT).show()
     }
 }

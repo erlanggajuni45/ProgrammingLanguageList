@@ -4,6 +4,14 @@
     <string name="description">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </string>
+    <string name="example_language">Python</string>
+    <string name="author_language">Didesain oleh: Chris Lattner, Doug Gregor, John McCall, Ted Kremenek, Joe Groff, dan Apple Inc</string>
+    <string name="release_year">Rilis Perdana: 2014</string>
+    <string name="pros_header">Kelebihan</string>
+    <string name="list_pros">1. Open-source\n2. Sangat mudah diskalakan\n3. Framework graphical user interface (GUI) yang lengkap\n4. Kompatibel dengan Mac dan Windows\n5. Dukungan komunitas yang terus berkembang</string>
+    <string name="cons_header">Kekurangan</string>
+    <string name="list_cons">1. Lebih lambat karena merupakan interpreted language\n2. Menggunakan banyak memori\n3. Tidak ideal untuk pengembangan versi seluler</string>
+    <string name="share">Bagikan</string>
 
     <string-array name="data_name">
         <item>Python</item>
@@ -16,6 +24,32 @@
         <item>Go</item>
         <item>SQL</item>
         <item>Ruby</item>
+    </string-array>
+
+    <string-array name="data_release_year">
+        <item>1990</item>
+        <item>2000</item>
+        <item>1985</item>
+        <item>1995</item>
+        <item>1995</item>
+        <item>2014</item>
+        <item>1995</item>
+        <item>2009</item>
+        <item>1974</item>
+        <item>1995</item>
+    </string-array>
+
+    <string-array name="data_author">
+        <item>Guido van Rossum</item>
+        <item>Anders Hejlsberg</item>
+        <item>Bjarne Stroustrup</item>
+        <item>Brendan Eich</item>
+        <item>Rasmus Lerdorf</item>
+        <item>Chris Lattner, Doug Gregor, John McCall, Ted Kremenek, Joe Groff, dan Apple Inc</item>
+        <item>James Gosling</item>
+        <item>Robert Griesemer, Rob Pike, Ken Thompson</item>
+        <item>Donald D. Chamberlin, Raymond F. Boyce</item>
+        <item>Yukihiro Matsumoto</item>
     </string-array>
 
     <!-- Description -->
