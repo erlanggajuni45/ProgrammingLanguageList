@@ -7,17 +7,24 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label=""
+        android:label="List Programming Language"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgrammingLanguageList"
         tools:targetApi="31">
         <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".DetailActivity"
             android:exported="false"
+            android:label=""
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
+            android:label=""
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

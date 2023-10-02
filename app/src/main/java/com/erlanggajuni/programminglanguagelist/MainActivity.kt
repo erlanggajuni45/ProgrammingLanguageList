@@ -34,7 +34,8 @@ class MainActivity : AppCompatActivity() {
             R.id.action_about -> {
                 // Tindakan yang akan dijalankan saat ikon di klik
                 // Misalnya, tampilkan pesan toast
-                Toast.makeText(this, "Ikon di klik!", Toast.LENGTH_SHORT).show()
+                val aboutIntent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(aboutIntent)
                 return true
             }
             else -> return super.onOptionsItemSelected(item)
