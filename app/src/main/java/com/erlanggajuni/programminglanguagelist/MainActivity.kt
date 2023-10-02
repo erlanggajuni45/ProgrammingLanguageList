@@ -3,6 +3,8 @@ package com.erlanggajuni.programminglanguagelist
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.erlanggajuni.programminglanguagelist.databinding.ActivityMainBinding
@@ -20,6 +22,23 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListLanguages())
         showRecyclerList()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_about, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.action_about -> {
+                // Tindakan yang akan dijalankan saat ikon di klik
+                // Misalnya, tampilkan pesan toast
+                Toast.makeText(this, "Ikon di klik!", Toast.LENGTH_SHORT).show()
+                return true
+            }
+            else -> return super.onOptionsItemSelected(item)
+        }
     }
 
     private fun getListLanguages(): ArrayList<ProgrammingLanguage> {

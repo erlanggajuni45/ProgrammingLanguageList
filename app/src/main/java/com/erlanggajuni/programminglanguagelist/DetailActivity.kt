@@ -1,8 +1,10 @@
 package com.erlanggajuni.programminglanguagelist
 
+import android.annotation.SuppressLint
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import com.erlanggajuni.programminglanguagelist.databinding.ActivityDetailBinding
@@ -13,10 +15,13 @@ class DetailActivity : AppCompatActivity() {
     companion object {
         const val DETAIL_LANGUAGE = "detail_language"
     }
+    @SuppressLint("RestrictedApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setDefaultDisplayHomeAsUpEnabled(true)
 
         binding.actionShare.setOnClickListener{
         Toast.makeText(this,"Berhasil dibagikan!", Toast.LENGTH_SHORT).show()
@@ -56,6 +61,16 @@ class DetailActivity : AppCompatActivity() {
 
             binding.listPros.text = prosString
             binding.listCons.text = consString
+        }
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                finish()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
         }
     }
 }

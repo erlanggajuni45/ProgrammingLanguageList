@@ -12,6 +12,7 @@
     <string name="cons_header">Kekurangan</string>
     <string name="list_cons">1. Lebih lambat karena merupakan interpreted language\n2. Menggunakan banyak memori\n3. Tidak ideal untuk pengembangan versi seluler</string>
     <string name="share">Bagikan</string>
+    <string name="about_icon">Tentang saya</string>
 
     <string-array name="data_name">
         <item>Python</item>
